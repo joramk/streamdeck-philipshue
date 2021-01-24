@@ -24,6 +24,10 @@
     "Name": "Helligkeit",
     "Tooltip": "Stelle die Helligkeit des Lichts ein."
   },
+  "com.elgato.philips-hue.brightnessRel": {
+    "Name": "Rel. Helligkeit",
+    "Tooltip": "Erhöht oder verringert die Helligkeit des Lichts ein."
+  },
   "com.elgato.philips-hue.scene": {
     "Name": "Szene",
     "Tooltip": "Stelle eine Szene ein."

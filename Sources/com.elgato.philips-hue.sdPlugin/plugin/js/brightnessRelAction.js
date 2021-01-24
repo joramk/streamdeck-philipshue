@@ -79,7 +79,10 @@ function BrightnessRelAction(inContext, inSettings) {
         }
 
         // Convert brightness
-        var brightness = Math.round(inSettings.brightness * 2.54);
+        var brightness = Math.round(obj.getBrightness() * inSettings.brightness);
+        if (brigtness > 254) {
+            brightness = 254;
+        }
 
         // Set light or group state
         obj.setBrightness(brightness, function(inSuccess, inError) {
